@@ -5,6 +5,9 @@
 tags
 node_modules
 
+#VS CODE
+*.code-workspace
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
