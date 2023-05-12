@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ruphasoft_membership *.css
+recursive-include ruphasoft_membership *.csv
+recursive-include ruphasoft_membership *.html
+recursive-include ruphasoft_membership *.ico
+recursive-include ruphasoft_membership *.js
+recursive-include ruphasoft_membership *.json
+recursive-include ruphasoft_membership *.md
+recursive-include ruphasoft_membership *.png
+recursive-include ruphasoft_membership *.py
+recursive-include ruphasoft_membership *.svg
+recursive-include ruphasoft_membership *.txt
+recursive-exclude ruphasoft_membership *.pyc
