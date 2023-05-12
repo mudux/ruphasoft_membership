@@ -1,2 +1,2 @@
-# ruphasoft_membership
-Frappe App to manage association membership
+# RUPHAsoft Membership Module
+Frappe App to manage membership
