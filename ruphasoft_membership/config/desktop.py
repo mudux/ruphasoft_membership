@@ -3,7 +3,7 @@ from frappe import _
 def get_data():
 	return [
 		{
-			"module_name": "RUPHAsoft Membership",
+			"module_name": "RUPHAsoft Membership Management",
 			"color": "grey",
 			"icon": "octicon octicon-file-directory",
 			"type": "module",
