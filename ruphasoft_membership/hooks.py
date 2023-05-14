@@ -1,7 +1,7 @@
 from . import __version__ as app_version
 
 app_name = "ruphasoft_membership"
-app_title = "RUPHAsoft Membership Management"
+app_title = "RUPHAsoft Membership"
 app_publisher = "mohamud@rupha.co.ke"
 app_description = "Frappe App to manage association membership"
 app_email = "mohamud@rupha.co.ke"

@@ -1,4 +1,4 @@
-## RUPHAsoft Membership Management
+## RUPHAsoft Membership
 
 Frappe App to manage association membership
 
