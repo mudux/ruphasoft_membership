@@ -7,6 +7,9 @@ node_modules
 
 #VS CODE
 *.code-workspace
+*.flake8
+icons.svg
+NOTES/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
