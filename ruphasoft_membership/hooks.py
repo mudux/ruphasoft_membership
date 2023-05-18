@@ -69,7 +69,7 @@ before_install = "ruphasoft_membership.install.before_install"
 # Uninstallation
 # ------------
 
-# before_uninstall = "ruphasoft_membership.uninstall.before_uninstall"
+before_uninstall = "ruphasoft_membership.uninstall.before_uninstall"
 # after_uninstall = "ruphasoft_membership.uninstall.after_uninstall"
 
 # Desk Notifications
