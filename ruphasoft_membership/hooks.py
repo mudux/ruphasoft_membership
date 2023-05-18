@@ -63,7 +63,7 @@ app_license = "MIT"
 # Installation
 # ------------
 
-# before_install = "ruphasoft_membership.install.before_install"
+before_install = "ruphasoft_membership.install.before_install"
 # after_install = "ruphasoft_membership.install.after_install"
 
 # Uninstallation
