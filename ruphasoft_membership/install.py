@@ -34,9 +34,12 @@ def before_install():
     </svg>"
     data = ""
     with open("/home/frappe/frappe-bench/apps/frappe/frappe/public/icons/timeless/icons.svg", "r") as f:
-        svgf = f.read()
-        data = svgf.replace("</svg>", replacetext)
-        f.close()
+        with open("/home/frappe/frappe-bench/apps/frappe/frappe/public/icons/timeless/icons.bak.svg", "r+") as nf:
+            svgf = f.read()
+            nf.write(svgf)
+            data = svgf.replace("</svg>", replacetext)
+            nf.close()
+            f.close()
     with open("/home/frappe/frappe-bench/apps/frappe/frappe/public/icons/timeless/icons.svg", "r+") as f:
         f.write(data)
         f.close()
