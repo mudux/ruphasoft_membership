@@ -34,7 +34,7 @@ def before_install():
     </svg>"
     data = ""
     with open("/home/frappe/frappe-bench/apps/frappe/frappe/public/icons/timeless/icons.svg", "r") as f:
-        with open("/home/frappe/frappe-bench/apps/frappe/frappe/public/icons/timeless/icons.bak.svg", "r+") as nf:
+        with open("/home/frappe/frappe-bench/apps/frappe/frappe/public/icons/timeless/icons.bak.svg", "w") as nf:
             svgf = f.read()
             nf.write(svgf)
             data = svgf.replace("</svg>", replacetext)
